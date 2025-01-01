@@ -1,0 +1,203 @@
+/* navbar_section */
+.navbar_section {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.navbar_section .nav-link {
+    color: rgb(223, 41, 9);
+
+}
+h1{
+    color: orangered;
+}
+h2{
+    color: orangered;
+}
+hr{
+    color: rgb(197, 24, 24);
+}
+p{
+    color: gray;
+}
+i{
+    color: rgb(223, 41, 9);
+}
+span{
+    color: gray;
+}
+
+h3{
+    text-decoration:underline;
+}
+/* hero_section */
+/* .hero_section img{
+    height:calc(100vh - 73px) ;
+} */
+
+
+/* .banner_section   img{
+    height:calc(100vh - 73px) ;
+}  */
+.banner_section  {
+    position: relative;
+}
+
+.banner_section .bannar_text{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color as needed */
+    text-align: left;
+    max-width: 80%; 
+    padding: 10px; 
+}
+
+/* .banner_section  h1 i{
+    position: absolute;
+    top: 60%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: left;
+    padding: 0 20px;
+    color: rgb(194, 74, 44);
+}
+.banner_section p {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align:left;
+    padding: 0 20px;
+    color:rgb(212, 203, 201);
+} */
+
+/* .banner_section .banner-item  img{
+    height: 100px;
+}
+.banner_section   {
+    position: relative;
+   
+}
+.banner_section   h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: right;
+    padding: 0 20px;
+    color: aliceblue;
+} */
+
+
+.breadcram_section .container h2{
+   background: url(../image/breadcram-1.jpg);
+   text-align: center;
+   color: antiquewhite;
+ 
+}
+/* Gallary_section */
+/* .Gallary_section .row{
+   background-color: rgb(231, 244, 247);
+   margin-top: 10px;
+}
+.Gallary_section .img_box {
+    overflow: hidden;
+}
+.Gallary_section .img_box img{
+ transition: 0.4s;
+}
+.Gallary_section .img_box  img:hover{
+transform: scale(1.1);
+}
+.employee_section .card img{
+    border-radius: 50%;
+    height: 130px;
+    
+} */
+
+.gallary_section .nav_design .nav-tabs {
+    justify-content: center !important;
+    margin-bottom: 10 !important;
+  
+}
+
+.gallary_section .nav_design button {
+    color: rgb(194, 74, 44);
+    background-color: rgb(241, 158, 158);
+    margin: auto;
+}
+
+.gallary_section .img_box {
+    width: 100%; 
+    /* Full width of the column */
+    height: 200px; 
+    /* Set a fixed height */
+    /* overflow: hidden; */
+     /* Hide any overflow */
+    object-fit: cover;
+    /* position: relative; */
+     /* Positioning context for the image */
+}
+
+/* .gallary_section .img_box img {
+    width: 100%;
+    height: 100%; */
+    /* object-fit: cover; */
+     /* Ensures images cover the box without distortion */
+    /* position: absolute; */
+     /* Positioning image absolutely within the box */
+    /* top: 0;
+    left: 0;
+} */
+
+
+.gallary_section .nav_design .active {
+    color: rgb(201, 38, 216);
+    background-color: rgb(238, 148, 145);
+}
+
+.gallary_section .nav_design .active:hover {
+    transform: scale(1.1);
+    border-radius: 20%;
+}
+
+.gallary_section .row .img_box {
+    padding-bottom: 20px;
+    margin:10px ;
+ 
+}
+.gallary_section .row .img_box:hover  {
+    transform: scale(1.1); 
+ 
+}
+
+.contact_section .container {
+    color: rgb(236, 78, 16);
+
+ 
+}
+
+
+.contact_section .container .section-header{
+    /* background-color: rgb(245, 197, 182); */
+    margin: 10px 0;
+}
+.contact_section .contact_form .btn{
+    background-color: rgb(236, 129, 29);
+    border: 1px solid rgb(113, 13, 207);
+}
+
+.faq_section  .faq_wrap button{
+background-color:rgb(228, 207, 199);
+border: 1px solid rgb(243, 102, 8);
+}
+
+
+footer .row{
+/* background-color: rgb(223, 209, 236); */
+}
